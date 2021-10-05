@@ -1,5 +1,26 @@
+@font-face {
+font-family: "Penna";
+src: url("fonts/penna.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.shadow {
+    box-shadow: 0 0 30px;
+    border-radius: 30%;
+    background: 0;
+    padding: 10px;
+    font-family: Penna;
+}
+
+header {
+    font-family: Penna;
+    padding-left: 50px;
+}
+
 body{
     background: lightcyan;
+    padding: 20px 20px 20px 20px;
 }
 
 aside {
@@ -14,4 +35,18 @@ aside {
 }
 q {
     color: darkblue;
+}
+.p-1 {
+    font-size: 20px;
+    line-height: 21px;
+    font-family: "Times New Roman";
+    font-weight: 900;
+    text-align: center;
+    background: aquamarine;
+    color: lightcoral;
+    margin-top: 100px;
+    word-spacing: 1px;
+    font-style: italic;
+    text-decoration: overline underline line-through;
+    text-transform: capitalize;
 }
