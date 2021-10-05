@@ -1,0 +1,17 @@
+body{
+    background: lightcyan;
+}
+
+aside {
+    background: #7fff00;
+    padding: 10px;
+    width: 200px;
+    float: left;
+}
+.block1 {
+    position: center;
+    background: #f0f0f0;
+}
+q {
+    color: darkblue;
+}
