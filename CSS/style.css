@@ -89,7 +89,7 @@ q {
     top: 0;
     width: 90%;
     height: 60px;
-
+    display: inline;
 }
 .main-menu li{
     border-radius: 10px;
@@ -266,4 +266,21 @@ a.button1:focus:not(:active) {
 
 * {
     box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+}
+
+
+
+@media screen and (max-width: 1168px){
+    .wrapper{
+        display: flex;
+        /*flex-direction: column-reverse;/**/
+        flex-direction: column;/**/
+    }
 }

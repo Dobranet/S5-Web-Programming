@@ -18,7 +18,8 @@
 <div class="top-over-menu">
     <div class="top-over-menu-logo">
     </div>
-</div><div class="main-menu">
+</div>
+<div class="main-menu">
     <ul>
         <li><a href="main.html" class="button1">Главная</a></li>
         <div class="dropdown">
@@ -39,18 +40,24 @@
         <li><a href="#contact" class="button1">Контакты</a></li>
     </ul>
 </div>
-<div id="comments">
+<div>
     <h1>Отзывы нашего магазина:</h1>
     <p class="block1">Еда была очень вкусной, всем советую</p>
+    <div id="comments">
+    </div>
+
+    <div>
+        <form >
+            <div >
+                <label for="comment-minus"></label>
+                <textarea cols="40" rows="10" type="password" class="" id="comment-name" placeholder="Ваш комментарий..."></textarea>
+            </div>
+            <div class="">
+                <button type="submit" id="comment-add" class="">Добавьте комментарий</button>
+            </div>
+        </form>
+    </div>
 </div>
-
-<form name="form" action="#" method="post" id="form" style="display:none" onsubmit="return false">
-    <textarea id="textarea" name="comment" cols="40" rows="10"></textarea><br />
-    <input type="submit" name="send" value="Добавить комментарий" id="done" />
-</form>
-<a href="#" onclick="return false" id="add_comment" class="button1">Добавить комментарий</a>
-
-
 
 
 
@@ -60,12 +67,14 @@
 
 
 
-<footer id="contact" role="contentinfo">
-    <aside><p>Обратная связь</p>
-        email: 284469@niuitmo.ru<br>
-        phone: +7-905-***-**-**<br>
-        telegram: @Dobranety<br>
-        <nav><a href="https://vk.com/kev_0011">VK</a></nav></aside>
-</footer>
+    <footer id="contact" role="contentinfo">
+        <aside><p>Обратная связь</p>
+            email: 284469@niuitmo.ru<br>
+            phone: +7-905-***-**-**<br>
+            telegram: @Dobranety<br>
+            <nav><a href="https://vk.com/kev_0011">VK</a></nav>
+            <script>date()</script></aside>
+
+    </footer>
 </body>
 </html>
