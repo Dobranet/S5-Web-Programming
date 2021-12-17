@@ -1,0 +1,269 @@
+@font-face {
+font-family: "Penna";
+src: url("../fonts/penna.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .main-menu{
+        width: 100%;
+    }
+}
+
+.shadow {
+    box-shadow: 0 0 30px;
+    border-radius: 30%;
+    background: 0;
+    padding: 10px;
+    font-family: Penna;
+    margin-top: 50px;
+}
+
+header {
+    flex: 100%;
+    font-family: Penna;
+    padding-left: 50px;
+}
+
+body{
+    flex: 100%;
+    background: lightcyan;
+    padding: 20px 20px 20px 20px;
+}
+
+aside {
+    flex: 100%;
+    background: #7fff00;
+    padding: 10px;
+    width: 200px;
+    float: left;
+    border-radius: 10px;
+}
+.block1 {
+    flex: 100%;
+    position: center;
+    background: #f0f0f0;
+    border-radius: 10px;
+    text-indent: 10%;
+}
+q {
+    flex: 100%;
+    color: darkblue;
+}
+.p-1 {
+    flex: 100%;
+    font-size: 20px;
+    line-height: 21px;
+    font-family: "Times New Roman";
+    font-weight: 900;
+    text-align: center;
+    background: aquamarine;
+    color: lightcoral;
+    margin-top: 100px;
+    word-spacing: 1px;
+    font-style: italic;
+    text-decoration: overline underline line-through;
+    text-transform: capitalize;
+}
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+
+}
+.bl-left{
+    left: 50%;
+}
+.main-menu{
+    border-radius: 10px;
+    background-color: #ffe0b5;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    height: 60px;
+
+}
+.main-menu li{
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.main-body-block{
+    padding: 10px;
+    padding-left: 20px;
+    width: 68%;
+    height: auto;
+    margin-top: 20px;
+    background-color: lightcyan;
+    float: left;
+    border-top-right-radius: 15px;
+}
+
+TABLE {
+    width: 50%; /* Ширина таблицы */
+    background: #fffff0; /* Цвет фона нечетных строк */
+    border: 1px solid #a52a2a; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого ячейки */
+}
+TD {
+    text-align: center; /* Выравнивание по центру */
+    border-bottom: 1px solid #a52a2a; /* Линия внизу ячейки */
+}
+TH {
+    background: #a52a2a; /* Цвет фона */
+    color: white; /* Цвет текста */
+}
+TR.even {
+    background: #fff8dc; /* Цвет фона четных строк */
+}
+.la {
+    text-align: left; /* Выравнивание по левому краю */
+}
+
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+}
+
+a.button1 {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    color: rgb(205,216,228);
+    text-shadow: 0 -1px rgb(46,53,58);
+    text-decoration: none;
+    user-select: none;
+    line-height: 2em;
+    padding: 1px 1.2em;
+    outline: none;
+    border: 1px solid rgba(33,43,52,1);
+    border-radius: 3px;
+    background: rgb(81,92,102) linear-gradient(rgb(81,92,102), rgb(69,78,87));
+    box-shadow:
+            inset 0 1px rgba(101,114,126,1),
+            inset 0 0 1px rgba(140,150,170,.8),
+            0 1px rgb(83,94,104),
+            0 0 1px rgb(86,96,106);
+}
+a.button1:active {
+    box-shadow:
+            inset 0 1px 3px rgba(0,10,20,.5),
+            0 1px rgb(83,94,104),
+            0 0 1px rgb(86,96,106);
+}
+a.button1:focus:not(:active) {
+    border: 1px solid rgb(22,32,43);
+    border-bottom: 1px solid rgb(25,34,45);
+    background: rgb(53,61,71);
+    box-shadow:
+            inset 0 1px 3px rgba(0,10,20,.5),
+            0 1px rgb(83,94,104),
+            0 0 1px rgb(86,96,106);
+    pointer-events: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    color: rgb(205,216,228);
+    text-shadow: 0 -1px rgb(46,53,58);
+    text-decoration: none;
+    user-select: none;
+    line-height: 2em;
+    padding: 1px 1.2em;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid rgba(33,43,52,1);
+    border-radius: 3px;
+    background: rgb(81,92,102) linear-gradient(rgb(81,92,102), rgb(69,78,87));
+    box-shadow:
+            inset 0 1px rgba(101,114,126,1),
+            inset 0 0 1px rgba(140,150,170,.8),
+            0 1px rgb(83,94,104),
+            0 0 1px rgb(86,96,106);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+
+
+
+
+
+
+.loader {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.loader:before,
+.loader:after {
+    height: 40px;
+    width: 40px;
+    border: 8px solid rgba(114, 80, 80, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}

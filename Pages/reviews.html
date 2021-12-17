@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+
+
+
+<head role="banner">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobra`s kitchen</title>
+    <img class="shadow" src="../pictures/Dobronet.jpg" alt="logo">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div class="top-over-menu">
+    <div class="top-over-menu-logo">
+    </div>
+</div><div class="main-menu">
+    <ul>
+        <li><a href="main.html" class="button1">Главная</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Магазин</button>
+            <div class="dropdown-content">
+                <a href="https://www.google.com/search?client=opera-gx&q=Московский+пр-т.%2C+73%2C+Санкт-Петербург%2C+196084&sourceid=opera&ie=UTF-8&oe=UTF-8">Московский пр-т., 73, Санкт-Петербург, 196084   </a>
+                <a href="https://www.google.com/maps?client=opera-gx&q=Бронницкая+ул.,+44,+Санкт-Петербург,+190013&oe=UTF-8&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiHjMyatOb0AhVisYsKHSj-CWMQ_AUoAXoECAEQAw">Бронницкая ул., 44, Санкт-Петербург, 190013</a>
+                <a href="https://www.google.com/maps?client=opera-gx&q=Рыбинская+улица,+1литЗ,+1+этаж,+Санкт-Петербург,+190013&oe=UTF-8&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjvjNuOtOb0AhWCuosKHUyhD7gQ_AUoAXoECAIQAw">Рыбинская улица, 1литЗ, 1 этаж, Санкт-Петербург, 190013</a>
+            </div>
+        </div>
+        <li><a href="dishes.html" class="button1">Блюда</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Отзывы</button>
+            <div class="dropdown-content">
+                <a href="reviews.html">Отзывы на сайте   </a>
+                <a href="parseLaceholder.html">Отзывы со сторонних сайтов</a></div>
+            </div>
+        <li><a href="#contact" class="button1">Контакты</a></li>
+    </ul>
+</div>
+<div id="comments">
+    <h1>Отзывы нашего магазина:</h1>
+    <p class="block1">Еда была очень вкусной, всем советую</p>
+</div>
+
+<form name="form" action="#" method="post" id="form" style="display:none" onsubmit="return false">
+    <textarea id="textarea" name="comment" cols="40" rows="10"></textarea><br />
+    <input type="submit" name="send" value="Добавить комментарий" id="done" />
+</form>
+<a href="#" onclick="return false" id="add_comment" class="button1">Добавить комментарий</a>
+
+
+
+
+
+
+    <script src="../JS/loadScript.js"></script>
+    <script src="../JS/comments.js"></script>
+
+
+
+<footer id="contact" role="contentinfo">
+    <aside><p>Обратная связь</p>
+        email: 284469@niuitmo.ru<br>
+        phone: +7-905-***-**-**<br>
+        telegram: @Dobranety<br>
+        <nav><a href="https://vk.com/kev_0011">VK</a></nav></aside>
+</footer>
+</body>
+</html>
