@@ -289,8 +289,8 @@ a.button1:focus:not(:active) {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     position: absolute;
-    top: 25%;
-    left: 50%;
+    top: 20%;
+    left: 20%;
     margin-left: -30em; /* 30 480 */
 }
 #nav > a {
@@ -325,7 +325,7 @@ a.button1:focus:not(:active) {
     background-color: #e15a1f;
 }
 #nav > ul > li {
-    width: 25%;
+    width: 20%;
     height: 100%;
     float: left;
 }
@@ -365,21 +365,25 @@ a.button1:focus:not(:active) {
 #nav li ul li a:hover, #nav li ul:not( :hover ) li.active a {
     background-color: #e15a1f;
 }
-@media only screen and ( max-width: 62.5em ) /* 1000 */ {
+@media only screen and ( max-width: 1080px ) /* 1000 */ {
     #nav {
         width: 100%;
-        position: static;
         margin: 0;
+        top: 0;
+        left: 5%;
+        position: absolute;
     }
 }
-@media only screen and ( max-width: 40em ) /* 640 */ {
+@media only screen and ( min-width: 1px ) /* 640 */ {
     html {
         font-size: 75%; /* 12 */
     }
     #nav {
-        position: relative;
-        top: auto;
-        left: auto;
+        width: 100%;
+        margin: 0;
+        top: 0;
+        left: 0%;
+        position: fixed;
     }
     #nav > a {
         width: 3.125em; /* 50 */
